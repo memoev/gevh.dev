@@ -2,11 +2,16 @@ html, body {
     height: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+h1, h2 {
+    margin: 0;
+}
+
 .main {
     height: 100%;
     width: 100%;
     display: table;
-    padding-left: 20px;
+    padding-left: 3em;
 }
 .wrapper {
     display: table-cell;
@@ -14,12 +19,8 @@ html, body {
     vertical-align: middle;
 }
 
-h1, h2 {
-    margin: 0;
-}
-
 .name {
-    font-size: 2em;
+    font-size: 4em;
     font-family: 'Pattaya', sans-serif;
 }
 
@@ -31,4 +32,6 @@ h1, h2 {
 .title {
     color: #3CB371;
     opacity: 0.6;
+    font-size: 1.5em;
+    padding-bottom: 1em;
 }
