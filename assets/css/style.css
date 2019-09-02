@@ -10,13 +10,6 @@ h1, h2 {
     margin: 0;
 }
 
-a {
-    padding-right: 1em;
-    font-size: 1.5em;
-    text-decoration: none;
-    color: #000;
-}
-
 button {
     margin-bottom: 1em;
 }
@@ -27,6 +20,13 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: right;
+}
+
+.link {
+    padding-right: 1em;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: #000;
 }
 
 .source {
