@@ -50,6 +50,15 @@ footer {
     font-family: 'Pattaya', sans-serif;
 }
 
+@media only screen and (max-width: 800px) {
+
+.name {
+    font-size: 2.5em;
+    font-family: 'Pattaya', sans-serif;
+}
+
+}
+
 .plus-ultra {
     font-family: Arial, Helvetica, sans-serif;
     padding-right: 20px;
