@@ -102,6 +102,11 @@ footer {
     padding-bottom: 1em;
 }
 
+.projects-content {
+    padding-bottom: 1em;
+}
+
 .go-back {
     cursor: pointer;
+    margin-bottom: 1em;
 }
