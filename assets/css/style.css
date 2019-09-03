@@ -128,6 +128,15 @@ footer {
     display: flex;
 }
 
+@media only screen and (max-width: 600px) {
+
+.project-container {
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+}
+
 .go-back {
     cursor: pointer;
     margin-top: 1em;
