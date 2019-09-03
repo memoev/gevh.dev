@@ -133,6 +133,7 @@ footer {
 .project-container {
     margin-left: 2em;
     margin-top: 2em;
+    display: inherit;
 }
 
 }
