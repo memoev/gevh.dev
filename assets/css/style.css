@@ -117,10 +117,14 @@ footer {
 
 .projects-content {
     padding-bottom: 1em;
+    width: 90%;
+    margin: auto;
 }
 
 .project-container {
     margin-left: 2em;
+    margin-top: 2em;
+    display: flex;
 }
 
 .go-back {
