@@ -12,9 +12,11 @@ h1, h2 {
 
 button {
     margin-bottom: 1em;
-    background: #006400;
+    background: #2E8B57;
     color: #ffffff;
     border: none;
+    padding: 0.5em;
+    border-radius: 10px;
 }
 
 img {
