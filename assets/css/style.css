@@ -35,7 +35,7 @@ footer {
 
 .link {
   margin-right: 1em;
-  font-size: 1.5em;
+  font-size: 1em;
   text-decoration: none;
   color: #000;
 }
@@ -61,7 +61,7 @@ footer {
 }
 
 .name {
-  font-size: 4em;
+  font-size: 3em;
   font-family: "Pattaya", sans-serif;
 }
 
@@ -93,7 +93,7 @@ footer {
 .title {
   color: #ffffff;
   opacity: 0.6;
-  font-size: 1.5em;
+  font-size: 1em;
   padding-bottom: 1em;
 }
 
