@@ -99,6 +99,10 @@ footer {
     display: none;
 }
 
+.hidden-2 {
+    display: none;
+}
+
 .projects {
     cursor: pointer;
 }
