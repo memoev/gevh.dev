@@ -122,6 +122,17 @@ footer {
     padding-bottom: 1em;
     width: 90%;
     margin: auto;
+    h1 {
+        font-size: 3em;
+    }
+    h2 {
+        font-size: 2em;
+        text-decoration: underline;
+    }
+    h4 {
+        font-size: 1.5em;
+        margin-bottom: 0em;
+    }
 }
 
 .projects-content {
