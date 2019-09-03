@@ -119,12 +119,18 @@ footer {
     padding-bottom: 1em;
 }
 
+.project-container {
+    margin-left: 2em;
+}
+
 .go-back {
     cursor: pointer;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 
 .go-back-2 {
     cursor: pointer;
     margin-bottom: 1em;
+    margin-top: 1em;
 }
