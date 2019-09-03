@@ -41,9 +41,10 @@ footer {
 }
 
 .source {
-    color: #006400;
+    color: #ffffff;
     padding-right: 1em;
     font-size: 2em;
+    text-decoration: none;
 }
 
 .main {
