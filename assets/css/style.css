@@ -28,7 +28,7 @@ footer {
 }
 
 .link {
-    padding-right: 1em;
+    margin-right: 1em;
     font-size: 1.5em;
     text-decoration: none;
     color: #000;
@@ -97,6 +97,10 @@ footer {
 
 .hidden {
     display: none;
+}
+
+.projects {
+    cursor: pointer;
 }
 
 .resume {
