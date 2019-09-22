@@ -17,3 +17,5 @@ $(".go-back-2").click(function () {
     $(".hidden-2").fadeOut(500);
     $(".main").fadeTo('slow', 1);
 })
+
+// Note
