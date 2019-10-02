@@ -215,6 +215,7 @@ footer {
     font-size: 2em;
     right: 2.25em;
     padding: 15px;
+    color: #2E8B57;
 }
 
 .switch {
@@ -254,11 +255,11 @@ footer {
 }
 
 input:checked + .slider {
-  background-color: #2196F3;
+  background-color: #3CB371;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
+  box-shadow: 0 0 1px #3CB371;
 }
 
 input:checked + .slider:before {
