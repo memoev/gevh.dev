@@ -35,7 +35,7 @@ $(".slider").click(function () {
         $('.sub-wrapper').css("border-bottom", "15px solid #3CB371");  
         $(".resume-content").css("color", "#F0FFF0"); 
         $(".projects-content").css("color", "#F0FFF0");
-        $(".resume-position").css("color", "#FFD700")      
+        $(".resume-position").css("color", "#F0FFF0")      
         dark = true;
     } else if (dark === true) {
         $('body').css("background", "#fff");
