@@ -1,9 +1,7 @@
 html, body {
   height: 100%;
   font-family: Arial, Helvetica, sans-serif;
-  background: #3CB371;
-  /* margin: 0;
-  overflow: hidden; */
+  margin: 0;
 }
 
 h1, h2 {
@@ -17,6 +15,10 @@ button {
   border: none;
   padding: 0.5em;
   border-radius: 10px;
+  margin-left: 2em;
+}
+button:hover {
+  background: #3CB371;
 }
 
 img {
@@ -30,28 +32,36 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
-  text-align: right;
+  text-align: center;
 }
 
 .link {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 5px;
+  padding-right: 5px;
   margin-right: 1em;
   font-size: 1em;
   text-decoration: none;
   color: #000;
 }
+.link:hover {
+  background: #006400;
+  color: #ffffff;
+}
 
 .source {
-  color: #ffffff;
+  color: #3CB371;
   padding-right: 1em;
   font-size: 2em;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 .main {
   height: 100%;
   width: 100%;
   display: table;
-  padding-left: 3em;
 }
 
 .wrapper {
@@ -60,19 +70,29 @@ footer {
   vertical-align: middle;
 }
 
+.sub-wrapper {
+  background: #3CB371;
+  padding-bottom: 0.75em;
+  border-bottom: 15px solid #006400;
+}
+
 .name {
-  font-size: 3em;
+  padding-left: 0.25em;
+  font-size: 4em;
   font-family: "Pattaya", sans-serif;
+  width: 100%;
 }
 
 @media only screen and (max-width: 800px) {
   .name {
+    padding-left: 0.25em;
     font-size: 2.5em;
     font-family: "Pattaya", sans-serif;
   }
 }
 @media only screen and (max-width: 600px) {
   .name {
+    padding-left: 0.25em;
     font-size: 1.5em;
     font-family: "Pattaya", sans-serif;
   }
@@ -81,7 +101,8 @@ footer {
     color: #ffffff;
     opacity: 0.6;
     font-size: 0.5em;
-    padding-bottom: 1em;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
   }
 }
 .plus-ultra {
@@ -93,8 +114,13 @@ footer {
 .title {
   color: #ffffff;
   opacity: 0.6;
-  font-size: 1em;
-  padding-bottom: 1em;
+  font-size: 1.25em;
+  padding-bottom: 0.5em;
+  padding-left: 1.5em;
+}
+
+.options {
+  padding-left: 3em;
 }
 
 .hidden {
@@ -118,8 +144,12 @@ footer {
   width: 90%;
   margin: auto;
 }
+.resume-content h2, .resume-content h3, .resume-content h4, .resume-content h5, .resume-content h6 {
+  color: #3CB371;
+}
 .resume-content h1 {
   font-size: 3em;
+  color: #006400;
 }
 .resume-content h2 {
   font-size: 2em;
@@ -134,6 +164,9 @@ footer {
   padding-bottom: 1em;
   width: 90%;
   margin: auto;
+}
+.projects-content h1 {
+  color: #3CB371;
 }
 
 .project-container {
