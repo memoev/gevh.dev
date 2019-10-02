@@ -89,6 +89,14 @@ footer {
     font-size: 2.5em;
     font-family: "Pattaya", sans-serif;
   }
+
+  .title {
+    color: #ffffff;
+    opacity: 0.6;
+    font-size: 0.5em !important;
+    padding-bottom: 0.5em;
+    padding-left: 1.5em;
+  }
 }
 @media only screen and (max-width: 600px) {
   .name {
@@ -100,7 +108,7 @@ footer {
   .title {
     color: #ffffff;
     opacity: 0.6;
-    font-size: 0.5em;
+    font-size: 0.5em !important;
     padding-bottom: 0.5em;
     padding-left: 1.5em;
   }
