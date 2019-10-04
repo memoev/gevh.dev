@@ -84,6 +84,12 @@ footer {
   background-image: url("../images/thisisit.png");
 }
 
+.sub-wrapper.toogled {
+  border-radius: 1em;
+  height: 25em;
+  background-image: url("../images/negative.png");
+}
+
 .deep-wrapper {
   float: left;
   width: 50%;
@@ -223,7 +229,7 @@ footer {
   color: #87CEEB;
 }
 .resume-content h1 {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #4682B4;
 }
 .resume-content h2 {
@@ -242,7 +248,7 @@ footer {
 }
 .projects-content h1 {
   font-family: "Press Start 2P", cursive;
-  font-size: 24px;
+  font-size: 18px;
   color: #4682B4;
 }
 
