@@ -125,7 +125,7 @@ footer {
   .sub-wrapper {
     border-radius: 1em;
     height: 100%;
-    background-image: none;
+    background-image: url("../images/thisisit.png");
   }
 
   .deep-wrapper {
