@@ -56,7 +56,7 @@ footer {
 }
 
 .source {
-    color: #000;
+    color: #DCDCDC;
     padding-right: 1em;
     font-size: 2em;
     text-decoration: none;
@@ -69,6 +69,7 @@ footer {
     width: 100%;
     overflow: hidden;
 }
+
 .wrapper { 
     vertical-align: middle;
     width: 70%;
@@ -101,13 +102,17 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
+    body {
+        background: #F5F5F5;
+    }
+
     .name {
         font-size: 22px;
-        width: 30% !important;
+        width: 75% !important;
     }
 
     .title {
-        width: 30% !important;
+        width: 75% !important;
     }
 
     .links {
@@ -137,10 +142,14 @@ footer {
     .image-wrapper {
         display: flex;
         background: #F5F5F5;
+
     }
 
     .personal-info {
-        margin-block-start: 0em;
+        padding-block-start: 2em;
+        padding-block-end: 2em;
+        margin-block-start: 4em;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
     .main-image {
