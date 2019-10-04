@@ -10,15 +10,16 @@ h1, h2 {
 
 button {
   margin-bottom: 1em;
-  background: #2E8B57;
+  background: #87CEEB;
   color: #ffffff;
   border: none;
   padding: 0.5em;
   border-radius: 10px;
   margin-left: 2em;
+  cursor: pointer;
 }
 button:hover {
-  background: #3CB371;
+  background: #4682B4;
 }
 
 img {
@@ -28,8 +29,8 @@ img {
 }
 
 .main-image {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   margin-right: 0;
   margin-block-start: 150px;
   margin: auto;
@@ -76,9 +77,9 @@ footer {
 }
 
 .sub-wrapper {
-  background-image: url("../images/thisisit.png");
   border-radius: 1em;
-  height: 40em;
+  height: 25em;
+  background-image: url("../images/thisisit.png");
 }
 
 .deep-wrapper {
@@ -90,14 +91,38 @@ footer {
 
 .image-wrapper {
   display: flex;
-  height: 40em;
+  height: 25em;
   background: #F5F5F5;
 }
 
 .personal-info {
-  margin-block-start: 15em;
+  margin-block-start: 8em;
 }
 
+@media only screen and (max-width: 800px) {
+  .sub-wrapper {
+    border-radius: 1em;
+    height: 100%;
+    background-image: url("../images/thisisit.png");
+  }
+
+  .deep-wrapper {
+    float: none;
+    width: 100%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .image-wrapper {
+    display: flex;
+    height: 25em;
+    background: #F5F5F5;
+  }
+
+  .personal-info {
+    margin-block-start: 0em;
+  }
+}
 .name {
   background: #FFE4E1;
   margin: auto;
@@ -106,7 +131,12 @@ footer {
 }
 
 .title {
+  font-size: 12px;
   font-family: "Press Start 2P", cursive;
+  width: 70%;
+  margin: auto;
+  color: #fff;
+  background: #000;
 }
 
 .links {
@@ -131,15 +161,15 @@ footer {
 
 .resume-content {
   padding-bottom: 1em;
-  width: 90%;
+  width: 70%;
   margin: auto;
 }
 .resume-content h2, .resume-content h3, .resume-content h4, .resume-content h5, .resume-content h6 {
-  color: #3CB371;
+  color: #87CEEB;
 }
 .resume-content h1 {
   font-size: 3em;
-  color: #006400;
+  color: #4682B4;
 }
 .resume-content h2 {
   font-size: 2em;
@@ -152,11 +182,13 @@ footer {
 
 .projects-content {
   padding-bottom: 1em;
-  width: 90%;
+  width: 70%;
   margin: auto;
 }
 .projects-content h1 {
-  color: #3CB371;
+  font-family: "Press Start 2P", cursive;
+  font-size: 24px;
+  color: #4682B4;
 }
 
 .project-container {
@@ -178,10 +210,10 @@ footer {
 }
 .tags span {
   margin-left: 0.5em;
-  color: #3CB371;
+  color: #4682B4;
 }
 .tags span:hover {
-  background: #006400;
+  background: #5F9EA0;
 }
 
 .go-back {
