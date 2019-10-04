@@ -45,6 +45,7 @@ footer {
 }
 
 .links {
+    font-size: 14px;
     margin-block-start: 1em;
     margin-block-end: 1.5em;
 }
@@ -58,7 +59,7 @@ footer {
 .source {
     color: #DCDCDC;
     padding-right: 1em;
-    font-size: 2em;
+    font-size: 1.5em;
     text-decoration: none;
     font-weight: bolder;
 }
@@ -100,6 +101,22 @@ footer {
     margin-block-start: 8em;
 }
 
+@media only screen and (max-width: 900px) {
+
+    .name {
+        font-size: 14px !important;
+    }
+
+    .option {
+        font-size: 8px;
+    }
+
+    .main-image {
+        width: 200px;
+        height: 200px;
+    }
+}
+
 @media only screen and (max-width: 600px) {
 
     body {
@@ -107,7 +124,7 @@ footer {
     }
 
     .name {
-        font-size: 22px;
+        font-size: 28px;
         width: 75% !important;
     }
 
@@ -117,6 +134,10 @@ footer {
 
     .links {
         font-size: 10px;
+    }
+
+    .option {
+        font-size: 12px;
     }
 
     .wrapper { 
@@ -141,6 +162,7 @@ footer {
 
     .image-wrapper {
         display: flex;
+        height: 15em;
         background: #F5F5F5;
 
     }
@@ -148,22 +170,23 @@ footer {
     .personal-info {
         padding-block-start: 2em;
         padding-block-end: 2em;
-        margin-block-start: 4em;
+        margin-block-start: 2em;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     
     .main-image {
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         margin-block-start: 0;
         margin: auto;
     }
 }
 
 .name {
+    font-size: 20px;
     background: #FFE4E1;
     margin: auto;
-    width: 70%;
+    width: 80%;
     font-family: 'Press Start 2P', cursive;
     // text-shadow: 3px 3px #3CB371;
 }
@@ -199,28 +222,28 @@ footer {
 
 .resume-content {
     padding-bottom: 1em;
-    width: 70%;
+    width: 85%;
     margin: auto;
     h2, h3, h4, h5, h6 {
         color: #87CEEB;
     }
     h1 {
-        font-size: 3em;
+        font-size: 2em;
         color: #4682B4;
     }
     h2 {
-        font-size: 2em;
+        font-size: 1em;
         text-decoration: underline;
     }
     h4 {
-        font-size: 1.5em;
+        font-size: 1em;
         margin-bottom: 0em;
     }
 }
 
 .projects-content {
     padding-bottom: 1em;
-    width: 70%;
+    width: 85%;
     margin: auto;
     h1 {
         font-family: 'Press Start 2P', cursive;
@@ -237,11 +260,11 @@ footer {
 
 @media only screen and (max-width: 600px) {
 
-.project-container {
-    margin-left: 2em;
-    margin-top: 2em;
-    display: inherit;
-}
+    .project-container {
+        margin-left: 2em;
+        margin-top: 2em;
+        display: inherit;
+    }
 
 }
 
