@@ -28,8 +28,11 @@ img {
 }
 
 .main-image {
-  width: 400px;
-  height: 400px;
+  width: 350px;
+  height: 350px;
+  margin-right: 0;
+  margin-block-start: 150px;
+  margin: auto;
 }
 
 footer {
@@ -40,23 +43,19 @@ footer {
   text-align: center;
 }
 
-.link {
-  padding-top: 10px;
-  padding-bottom: 12px;
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-right: 1em;
-  font-size: 1em;
-  text-decoration: none;
-  color: #000;
+.links {
+  margin-block-start: 1em;
+  margin-block-end: 1.5em;
 }
-.link:hover {
-  background: #006400;
-  color: #ffffff;
+
+.navlink {
+  background: #fff;
+  box-shadow: 6px 6px black;
+  padding: 0.25em;
 }
 
 .source {
-  color: #3CB371;
+  color: #000;
   padding-right: 1em;
   font-size: 2em;
   text-decoration: none;
@@ -90,18 +89,24 @@ footer {
 }
 
 .image-wrapper {
-  background: pink;
+  display: flex;
   height: 40em;
+  background: #F5F5F5;
+}
+
+.personal-info {
+  margin-block-start: 15em;
 }
 
 .name {
+  background: #FFE4E1;
+  margin: auto;
+  width: 70%;
   font-family: "Press Start 2P", cursive;
-  text-shadow: 3px 3px #3CB371;
 }
 
 .title {
   font-family: "Press Start 2P", cursive;
-  text-shadow: 3px 3px #0000CD;
 }
 
 .links {
@@ -241,11 +246,11 @@ footer {
 }
 
 input:checked + .slider {
-  background-color: #3CB371;
+  background-color: #ADD8E6;
 }
 
 input:focus + .slider {
-  box-shadow: 0 0 1px #3CB371;
+  box-shadow: 0 0 1px #ADD8E6;
 }
 
 input:checked + .slider:before {
