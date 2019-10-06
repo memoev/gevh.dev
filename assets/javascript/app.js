@@ -10,8 +10,8 @@ $(".resume").click(function () {
 });
 
 $(".go-back").click(function () {
-    $(".hidden").fadeOut(500);
-    $('.main').slideDown("slow");
+    $(".hidden").fadeOut(300);
+    $('.main').slideDown(500);
     $(".wrapper").animate({
         opacity: 1,
         // left: "+=50",
@@ -32,8 +32,8 @@ $(".projects").click(function () {
 });
 
 $(".go-back-2").click(function () {
-    $(".hidden-2").fadeOut(500);
-    $('.main').slideDown("slow");
+    $(".hidden-2").fadeOut(300);
+    $('.main').slideDown(500);
     $(".wrapper").animate({
         opacity: 1,
         // left: "+=50",
