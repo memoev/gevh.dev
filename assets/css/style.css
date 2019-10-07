@@ -1,7 +1,8 @@
 html, body {
   height: 100%;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: monospace;
   margin: 0;
+  font-size: 14px;
 }
 
 h1, h2 {
@@ -10,16 +11,12 @@ h1, h2 {
 
 button {
   margin-bottom: 1em;
-  background: #87CEEB;
-  color: #ffffff;
-  border: none;
+  background: #fff;
+  color: #000;
+  box-shadow: 6px 6px black;
   padding: 0.5em;
-  border-radius: 10px;
   margin-left: 2em;
   cursor: pointer;
-}
-button:hover {
-  background: #4682B4;
 }
 
 img {
@@ -65,6 +62,7 @@ footer {
 }
 
 .main {
+  border-radius: 1em;
   display: flex;
   height: 100%;
   width: 100%;
@@ -72,6 +70,7 @@ footer {
 }
 
 .wrapper {
+  border-radius: 1em;
   vertical-align: middle;
   width: 70%;
   margin: auto;
@@ -109,11 +108,11 @@ footer {
 
 @media only screen and (max-width: 900px) {
   .name {
-    font-size: 14px !important;
+    font-size: 22px !important;
   }
 
   .option {
-    font-size: 8px;
+    font-size: 14px;
   }
 
   .main-image {
@@ -127,7 +126,7 @@ footer {
   }
 
   .name {
-    font-size: 28px;
+    font-size: 30px !important;
     width: 75% !important;
   }
 
@@ -140,7 +139,7 @@ footer {
   }
 
   .option {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   .wrapper {
@@ -153,7 +152,6 @@ footer {
   .sub-wrapper {
     border-radius: 1em;
     height: 100%;
-    background-image: url("../images/thisisit.png");
   }
 
   .deep-wrapper {
@@ -184,24 +182,20 @@ footer {
   }
 }
 .name {
-  font-size: 20px;
-  background: #FFE4E1;
+  font-size: 30px;
+  background: #FFF5EE;
   margin: auto;
   width: 80%;
-  font-family: "Press Start 2P", cursive;
 }
 
 .title {
-  font-size: 12px;
-  font-family: "Press Start 2P", cursive;
+  font-size: 18px;
   width: 70%;
   margin: auto;
-  color: #fff;
-  background: #000;
 }
 
-.links {
-  font-family: "Press Start 2P", cursive;
+.option:active {
+  background: #000;
 }
 
 .hidden {
@@ -222,19 +216,18 @@ footer {
 
 .resume-content {
   padding-bottom: 1em;
-  width: 85%;
+  width: 60%;
   margin: auto;
 }
 .resume-content h2, .resume-content h3, .resume-content h4, .resume-content h5, .resume-content h6 {
-  color: #87CEEB;
+  color: #663399;
 }
 .resume-content h1 {
+  color: #0000FF;
   font-size: 1.5em;
-  color: #4682B4;
 }
 .resume-content h2 {
   font-size: 1em;
-  text-decoration: underline;
 }
 .resume-content h4 {
   font-size: 1em;
@@ -243,13 +236,13 @@ footer {
 
 .projects-content {
   padding-bottom: 1em;
-  width: 85%;
+  width: 60%;
   margin: auto;
 }
 .projects-content h1 {
-  font-family: "Press Start 2P", cursive;
+  font-family: monospace;
   font-size: 18px;
-  color: #4682B4;
+  color: #0000FF;
 }
 
 .project-container {
@@ -271,10 +264,10 @@ footer {
 }
 .tags span {
   margin-left: 0.5em;
-  color: #4682B4;
+  color: #00FF00;
 }
 .tags span:hover {
-  background: #5F9EA0;
+  background: #000;
 }
 
 .go-back {
@@ -296,16 +289,16 @@ footer {
 
 .moon {
   position: fixed;
-  font-size: 1em;
-  right: 2.5em;
-  padding: 12px;
+  font-size: 1.25em !important;
+  right: 3em;
+  padding: 15px;
   color: #2E8B57;
 }
 
 .switch {
   display: inline-block;
-  width: 35px;
-  height: 18px;
+  width: 45px;
+  height: 28px;
 }
 
 .switch input {
@@ -329,8 +322,8 @@ footer {
 .slider:before {
   position: absolute;
   content: "";
-  height: 11px;
-  width: 11px;
+  height: 19px;
+  width: 19px;
   left: 4px;
   bottom: 4px;
   background-color: white;
