@@ -47,7 +47,7 @@ var dark = false;
 $(".slider").click(function () {
     if (dark === false) {
         // alert("hi!");
-        $('.sub-wrapper').css({ 'background-image': 'url(../gevh.dev/assets/images/back.jpg)' });
+        $('.sub-wrapper').css({ 'background-image': 'url(../assets/images/back.jpg)' });
     //     $('.name').css("color", "#3CB371");
     //     $('.link').css("color", "#fff");
         $('body').css("background-color", "#2B2B2B");
@@ -63,7 +63,7 @@ $(".slider").click(function () {
         $(".title").css("color", "#fff")      
         dark = true;
     } else if (dark === true) {
-        $('.sub-wrapper').css({ 'background-image': 'url(../gevh.dev/assets/images/ground.jpg)' });
+        $('.sub-wrapper').css({ 'background-image': 'url(../assets/images/ground.jpg)' });
         $('body').css("background-color", "#fff");
         $('.image-wrapper').css("background", "#F5F5F5"); 
     //     $('body').css("background", "#fff");
