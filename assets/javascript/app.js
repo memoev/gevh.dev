@@ -64,7 +64,7 @@ $(".slider").click(function () {
         dark = true;
     } else if (dark === true) {
         $('.sub-wrapper').css({ 'background-image': 'url(../assets/images/ground.jpg)' });
-        $('body').css("background-color", "#fff");
+        $('body').css("background-color", "#F5F5F5");
         $('.image-wrapper').css("background", "#F5F5F5"); 
     //     $('body').css("background", "#fff");
     //     $('.name').css("color", "#000");
