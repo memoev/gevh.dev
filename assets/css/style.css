@@ -103,7 +103,7 @@ footer {
 }
 
 .personal-info {
-  margin-block-start: 8em;
+  margin-block-start: 4em;
 }
 
 @media only screen and (max-width: 900px) {
@@ -289,7 +289,7 @@ footer {
 
 .moon {
   position: fixed;
-  font-size: 1.25em !important;
+  font-size: 1.5em !important;
   right: 3em;
   padding: 15px;
   color: #2E8B57;
