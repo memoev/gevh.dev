@@ -121,10 +121,6 @@ footer {
   }
 }
 @media only screen and (max-width: 600px) {
-  body {
-    background: #F5F5F5;
-  }
-
   .name {
     font-size: 30px !important;
     width: 75% !important;
