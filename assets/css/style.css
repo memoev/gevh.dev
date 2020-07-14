@@ -101,7 +101,7 @@ footer {
 .image-wrapper {
   display: flex;
   height: 25em !important;
-  background: #F5F5F5;
+  background: #ffffff;
 }
 
 .personal-info {
@@ -162,7 +162,7 @@ footer {
   .image-wrapper {
     display: flex;
     height: 15em;
-    background: #F5F5F5;
+    background: #ffffff;
   }
 
   .personal-info {

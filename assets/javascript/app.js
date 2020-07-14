@@ -56,16 +56,18 @@ $(".slider").click(function () {
     //     }, function () {
     //         $(this).css("background-color", "#006400");
     //     });
-        $('.image-wrapper').css("background", "#1D1D1D"); 
+        $('.image-wrapper').css("background", "#000000"); 
     //     $('.sub-wrapper').css("border-bottom", "15px solid #3CB371");  
          $(".resume-content").css("color", "#696969"); 
          $(".projects-content").css("color", "#696969");
-        $(".title").css("color", "#fff")      
+        $(".title").css("color", "#fff");
+        document.querySelector('.main-image').src = '../assets/images/memologob.png';     
         dark = true;
     } else if (dark === true) {
+        document.querySelector('.main-image').src = '../assets/images/memologo.png';
         $('.sub-wrapper').css({ 'background-image': 'url(../assets/images/ground.jpg)' });
         $('body').css("background-color", "#fff");
-        $('.image-wrapper').css("background", "#F5F5F5"); 
+        $('.image-wrapper').css("background", "#fff"); 
     //     $('body').css("background", "#fff");
     //     $('.name').css("color", "#000");
     //     $('.link').css("color", "#000");
